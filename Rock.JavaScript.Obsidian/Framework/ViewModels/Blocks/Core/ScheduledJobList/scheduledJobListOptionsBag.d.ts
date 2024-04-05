@@ -21,16 +21,6 @@
 // </copyright>
 //
 
-export type VolunteerGivingDataBag = {
-    /** Gets or sets the month. */
-    month: number;
-
-    /** Gets or sets the month name. */
-    monthNameAbbreviated?: string | null;
-
-    /** Gets or sets the month formatted name. */
-    monthYearFormatted?: string | null;
-
-    /** Gets or sets the year. */
-    year: number;
+/** The additional configuration options for the Service Job List block. */
+export type ScheduledJobListOptionsBag = {
 };
